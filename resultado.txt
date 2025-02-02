@@ -1,0 +1,4 @@
+Game	Developer(s)	Publisher	Platform	Release date	Sales
+Mega Man II	Japan System House	Capcom	Game Boy	1991-12-20	1000000
+Star Wars	NMS Software	Capcom	Game Boy	1992-11-01	1000000
+DuckTales 2	Make Software	Capcom	Game Boy	1993-04-23	1000000
