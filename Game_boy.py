@@ -16,7 +16,9 @@ df_game_boy_color = df.query("Platform == 'Game Boy Color'")
 # Ordenamos por ventas de mayor a menor e indexamos las 10 primeras posiciones.
 """df = df_game_boy_color.sort_values(by = 'Sales', ascending = False).iloc[:10]"""
 
-df = df['Platform'].value_counts()
+"""df = df['Platform'].value_counts()"""
 #Hay más Juegos de Game boy que juegos a color
+
+df = df_game_boy.query("Publisher == 'Capcom'").sort_values(by="Sales", ascending = False).iloc[-3:]
 
 print (df)
